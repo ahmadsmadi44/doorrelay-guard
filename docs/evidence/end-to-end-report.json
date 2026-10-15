@@ -1,0 +1,281 @@
+{
+  "capturedAt": "2026-10-14T04:12:17.117Z",
+  "source": "generated-video-regression",
+  "timeline": [
+    {
+      "id": "7c27a7df-71a9-4601-af86-eeba0dd5df64",
+      "at": 1791951127262,
+      "title": "Tracking stopped",
+      "detail": "Start a new observation session to resume.",
+      "tone": "neutral"
+    },
+    {
+      "id": "e4de7650-ece9-4112-bb89-f7d9182beee2",
+      "at": 1791951092764,
+      "title": "Pickup authorized",
+      "detail": "A two-minute collection window is open for this parcel.",
+      "tone": "good"
+    },
+    {
+      "id": "824f654d-eb0e-425d-98c2-4dcd6c00c7ad",
+      "at": 1791951092478,
+      "title": "Parcel enrolled",
+      "detail": "Tracking selected pixels from your local video.",
+      "tone": "good"
+    },
+    {
+      "id": "dee9e9d7-b4f3-49ef-9e50-13ebebd819ff",
+      "at": 1791951092196,
+      "title": "Tracking stopped",
+      "detail": "Start a new observation session to resume.",
+      "tone": "neutral"
+    },
+    {
+      "id": "df5199fe-392c-4ec0-88da-a87a6ee5e639",
+      "at": 1791951071521,
+      "title": "Tracking stopped",
+      "detail": "Start a new observation session to resume.",
+      "tone": "neutral"
+    },
+    {
+      "id": "a8408743-4f51-43a4-bc82-f644111f2886",
+      "at": 1791951054346,
+      "title": "Package returned",
+      "detail": "Reference appearance is stable in the delivery spot again.",
+      "tone": "good"
+    },
+    {
+      "id": "43725d1c-8096-4cb4-b559-9252e6181782",
+      "at": 1791951049598,
+      "title": "Speaker confirmed playback",
+      "detail": "The paired browser reported that the warning finished.",
+      "tone": "good"
+    },
+    {
+      "id": "20640740-56b8-493d-964d-ff259059f3a6",
+      "at": 1791951046174,
+      "title": "Warning queued",
+      "detail": "Waiting for the paired speaker to confirm playback.",
+      "tone": "neutral"
+    },
+    {
+      "id": "5e495f55-b519-4693-9112-411156140842",
+      "at": 1791951046174,
+      "title": "Unverified package movement",
+      "detail": "No pickup window was active. Review the images before drawing conclusions.",
+      "tone": "alert"
+    },
+    {
+      "id": "507ba468-73ce-4442-b00a-6b7f22b5c2c3",
+      "at": 1791951037554,
+      "title": "Parcel enrolled",
+      "detail": "Tracking selected pixels from your local video.",
+      "tone": "good"
+    },
+    {
+      "id": "283a6e00-2314-4793-b012-1bf3e8823f87",
+      "at": 1791951035079,
+      "title": "Tracking stopped",
+      "detail": "Start a new observation session to resume.",
+      "tone": "neutral"
+    },
+    {
+      "id": "e077d5fa-050c-423b-b89c-1d4a27ab1f7a",
+      "at": 1791951034172,
+      "title": "Warning policy updated",
+      "detail": "One fixed warning may play after sustained unverified movement.",
+      "tone": "neutral"
+    },
+    {
+      "id": "054c34d4-f718-4aa6-9cad-353956519806",
+      "at": 1791951025308,
+      "title": "Speaker paired",
+      "detail": "Enable audio on the paired device to make it ready.",
+      "tone": "neutral"
+    },
+    {
+      "id": "6dde8058-9ae2-4700-ba34-1b5e3bb3c479",
+      "at": 1791948570371,
+      "title": "Tracking stopped",
+      "detail": "Start a new observation session to resume.",
+      "tone": "neutral"
+    },
+    {
+      "id": "a9fb1c50-b513-4083-8ee5-f591c7514d72",
+      "at": 1791948534110,
+      "title": "Parcel enrolled",
+      "detail": "Tracking selected pixels from Ring video.",
+      "tone": "good"
+    },
+    {
+      "id": "177b8252-a242-4094-b158-79443e52fecf",
+      "at": 1791948531795,
+      "title": "Tracking stopped",
+      "detail": "Start a new observation session to resume.",
+      "tone": "neutral"
+    },
+    {
+      "id": "38957db8-6d71-4f82-905b-d2a5f0d77532",
+      "at": 1791948515044,
+      "title": "Tracking stopped",
+      "detail": "Start a new observation session to resume.",
+      "tone": "neutral"
+    },
+    {
+      "id": "b7f438ca-783e-4b40-930c-da66b4b89d75",
+      "at": 1791948507195,
+      "title": "Parcel enrolled",
+      "detail": "Tracking selected pixels from Ring video.",
+      "tone": "good"
+    },
+    {
+      "id": "c47280aa-2c58-4cc9-bab1-edbfd5b18195",
+      "at": 1791948476455,
+      "title": "Tracking stopped",
+      "detail": "Start a new observation session to resume.",
+      "tone": "neutral"
+    },
+    {
+      "id": "62478a18-e28a-4934-b292-8e26b649f9c5",
+      "at": 1791948476255,
+      "title": "Tracking stopped",
+      "detail": "Start a new observation session to resume.",
+      "tone": "neutral"
+    },
+    {
+      "id": "fb40f14e-770c-4cf2-b559-67eb5cff7ef7",
+      "at": 1791948451126,
+      "title": "Tracking stopped",
+      "detail": "Start a new observation session to resume.",
+      "tone": "neutral"
+    },
+    {
+      "id": "de44f355-4d36-46aa-b69b-a1d450be56a6",
+      "at": 1791948218604,
+      "title": "Tracking stopped",
+      "detail": "Start a new observation session to resume.",
+      "tone": "neutral"
+    },
+    {
+      "id": "bd57ad25-28f2-40b2-bae0-76858e4513bf",
+      "at": 1791948179802,
+      "title": "Tracking stopped",
+      "detail": "Start a new observation session to resume.",
+      "tone": "neutral"
+    },
+    {
+      "id": "05026dd3-ada4-4d5c-be45-7e6335034bac",
+      "at": 1791947956370,
+      "title": "Speaker confirmed playback",
+      "detail": "The paired browser reported that the warning finished.",
+      "tone": "good"
+    },
+    {
+      "id": "d7d94881-9ffa-47b5-953e-e3c04f47f799",
+      "at": 1791947952290,
+      "title": "Warning queued",
+      "detail": "Waiting for the paired speaker to confirm playback.",
+      "tone": "neutral"
+    },
+    {
+      "id": "585b8bee-4860-43c3-a20b-adbbbc2210c4",
+      "at": 1791947901996,
+      "title": "Speaker paired",
+      "detail": "Enable audio on the paired device to make it ready.",
+      "tone": "neutral"
+    },
+    {
+      "id": "eae73546-1551-4a72-8a32-b136ff17b870",
+      "at": 1791932664215,
+      "title": "Parcel enrolled",
+      "detail": "Tracking selected pixels from the synthetic test scene.",
+      "tone": "good"
+    },
+    {
+      "id": "691013b4-b4da-48a3-958a-9d760e64fa0a",
+      "at": 1791932538808,
+      "title": "Collection confirmed",
+      "detail": "Resident confirmed custody of the parcel.",
+      "tone": "good"
+    },
+    {
+      "id": "a9ce82fe-ee61-4249-adf4-dc1d07224b3d",
+      "at": 1791932524612,
+      "title": "Pickup authorized",
+      "detail": "A two-minute collection window is open for this parcel.",
+      "tone": "good"
+    },
+    {
+      "id": "d9fbf873-7f2a-446d-b92f-1a58edb69322",
+      "at": 1791932349664,
+      "title": "Package returned",
+      "detail": "Reference appearance is stable in the delivery spot again.",
+      "tone": "good"
+    },
+    {
+      "id": "4bdfa824-31ef-475a-8f1e-08bf26885876",
+      "at": 1791915435301,
+      "title": "Review requested",
+      "detail": "Automatic warnings are off. You can send one after review.",
+      "tone": "neutral"
+    },
+    {
+      "id": "748dda05-b2e4-4004-a129-b2f4c4f49fe1",
+      "at": 1791915435301,
+      "title": "Unverified package movement",
+      "detail": "No pickup window was active. Review the images before drawing conclusions.",
+      "tone": "alert"
+    },
+    {
+      "id": "be857b6e-3dfc-4f75-ad08-95e80edaad96",
+      "at": 1791915424294,
+      "title": "Parcel enrolled",
+      "detail": "Tracking selected pixels from the synthetic test scene.",
+      "tone": "good"
+    },
+    {
+      "id": "e0e9fde8-537c-487e-99ee-6dba7686663a",
+      "at": 1791915341441,
+      "title": "Tracking stopped",
+      "detail": "Start a new observation session to resume.",
+      "tone": "neutral"
+    },
+    {
+      "id": "201b0a9c-ca69-4fa7-a16f-af73b90174ca",
+      "at": 1791915050339,
+      "title": "Tracking stopped",
+      "detail": "Start a new observation session to resume.",
+      "tone": "neutral"
+    },
+    {
+      "id": "be84625f-c18e-414d-b2f1-7e0b01839ff4",
+      "at": 1791915040261,
+      "title": "Tracking stopped",
+      "detail": "Start a new observation session to resume.",
+      "tone": "neutral"
+    },
+    {
+      "id": "b0c71011-28fe-4ab6-a57e-9610be24a348",
+      "at": 1791915012734,
+      "title": "Tracking stopped",
+      "detail": "Start a new observation session to resume.",
+      "tone": "neutral"
+    }
+  ],
+  "commands": [
+    {
+      "text": "Please leave the package in the delivery area.",
+      "createdAt": 1791951046174,
+      "expiresAt": 1791951061174,
+      "status": "completed",
+      "error": ""
+    },
+    {
+      "text": "Please leave the package in the delivery area.",
+      "createdAt": 1791947952290,
+      "expiresAt": 1791947967290,
+      "status": "completed",
+      "error": ""
+    }
+  ]
+}

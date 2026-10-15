@@ -1,0 +1,123 @@
+{
+  "timeline": [
+    {
+      "id": "64748c20-f88d-4ac8-9181-3b9981c582d1",
+      "at": 1792023277392,
+      "title": "Warning policy updated",
+      "detail": "Warnings require a resident action.",
+      "tone": "neutral"
+    },
+    {
+      "id": "ceb4cb3e-d41d-428a-b6fc-e49560cdd4cc",
+      "at": 1792023274455,
+      "title": "Video observation ended",
+      "detail": "Video stopped. Any active pickup authorization or unresolved review remains available.",
+      "tone": "neutral"
+    },
+    {
+      "id": "50acd81c-bd59-489e-b458-6172ed3918a5",
+      "at": 1792023260552,
+      "title": "Collection confirmed",
+      "detail": "Resident confirmed custody of the parcel.",
+      "tone": "good"
+    },
+    {
+      "id": "c252b25f-8ee3-41f8-a072-1bfd9a2a8180",
+      "at": 1792023240522,
+      "title": "Pickup authorized",
+      "detail": "A two-minute collection window is open for this parcel.",
+      "tone": "good"
+    },
+    {
+      "id": "832cfb43-5867-4763-bfae-ca401b02612b",
+      "at": 1792023240237,
+      "title": "Collection claimed",
+      "detail": "You plans to bring the parcel inside.",
+      "tone": "neutral"
+    },
+    {
+      "id": "5966cdfb-8667-406a-a76d-3d9b70114999",
+      "at": 1792023239678,
+      "title": "Parcel enrolled",
+      "detail": "Tracking selected pixels from your local video.",
+      "tone": "good"
+    },
+    {
+      "id": "6690547a-dd77-4b38-b1e7-29e00d8f1f42",
+      "at": 1792023239398,
+      "title": "Tracking stopped",
+      "detail": "Start a new observation session to resume.",
+      "tone": "neutral"
+    },
+    {
+      "id": "1277b5e6-82fb-4cd1-848d-1251b414df2a",
+      "at": 1792023210030,
+      "title": "Video observation ended",
+      "detail": "Video stopped. Any active pickup authorization or unresolved review remains available.",
+      "tone": "neutral"
+    },
+    {
+      "id": "70a53310-6188-4755-940f-64cec80377e9",
+      "at": 1792023192660,
+      "title": "Package returned",
+      "detail": "Reference appearance is stable in the delivery spot again.",
+      "tone": "good"
+    },
+    {
+      "id": "6cc43661-1479-4978-9e2a-21644b75e369",
+      "at": 1792023188724,
+      "title": "Speaker confirmed playback",
+      "detail": "The paired browser reported that the warning finished.",
+      "tone": "good"
+    },
+    {
+      "id": "33d3eb96-6b8d-40a1-86d2-41135183d40b",
+      "at": 1792023184524,
+      "title": "Warning queued",
+      "detail": "Waiting for the paired speaker to confirm playback.",
+      "tone": "neutral"
+    },
+    {
+      "id": "18a7f742-72e8-4c07-aa5e-2f6822a4b5c3",
+      "at": 1792023184524,
+      "title": "Unverified package movement",
+      "detail": "No pickup window was active. Review the images before drawing conclusions.",
+      "tone": "alert"
+    },
+    {
+      "id": "f70f46f0-556a-4147-8f9b-eeda6e947000",
+      "at": 1792023175222,
+      "title": "Parcel enrolled",
+      "detail": "Tracking selected pixels from your local video.",
+      "tone": "good"
+    },
+    {
+      "id": "1ebdb33f-dfcb-4858-b19b-ccccbaeb9d0a",
+      "at": 1792023174969,
+      "title": "Tracking stopped",
+      "detail": "Start a new observation session to resume.",
+      "tone": "neutral"
+    },
+    {
+      "id": "ca507116-bffd-4d87-8469-0689d431a325",
+      "at": 1792023166245,
+      "title": "Speaker paired",
+      "detail": "Enable audio on the paired device to make it ready.",
+      "tone": "neutral"
+    }
+  ],
+  "application": "DoorRelay Guard",
+  "commands": [
+    {
+      "id": "8bcbf7f6-b7be-47ee-b46d-99404c2003a8",
+      "incidentId": "4403cd1d-1c36-4909-94e3-835ff0dce5fa",
+      "text": "Please leave the package in the delivery area.",
+      "createdAt": 1792023184524,
+      "expiresAt": 1792023199524,
+      "status": "completed",
+      "error": ""
+    }
+  ],
+  "exportedAt": "2026-10-15T00:15:02.383Z",
+  "source": "Generated regression video; actual browser audio playback"
+}

@@ -1,0 +1,330 @@
+
+> doorrelay-guard@0.2.0 pretest
+> npm run build
+
+
+> doorrelay-guard@0.2.0 build
+> tsc --noEmit && vite build
+
+vite v8.3.4 building client environment for production...
+transforming...
+✓ 4596 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                        0.40 kB │ gzip:   0.28 kB
+dist/assets/dm-sans-latin-600-normal-Aqo67rzb.woff2   14.14 kB
+dist/assets/manrope-latin-600-normal-4f0koTD-.woff2   14.17 kB
+dist/assets/dm-sans-latin-400-normal-CW0RaeGs.woff2   14.20 kB
+dist/assets/manrope-latin-700-normal-BZp_XxE4.woff2   14.21 kB
+dist/assets/dm-sans-latin-500-normal-B9HHJjqV.woff2   14.30 kB
+dist/assets/dm-sans-latin-700-normal-DvUfVpUG.woff2   14.34 kB
+dist/assets/dm-sans-latin-600-normal-BmdmIIQ2.woff    18.32 kB
+dist/assets/dm-sans-latin-400-normal-BwCSEQnW.woff    18.35 kB
+dist/assets/manrope-latin-600-normal-BqgrALkZ.woff    18.38 kB
+dist/assets/manrope-latin-700-normal-DGRFkw-m.woff    18.41 kB
+dist/assets/dm-sans-latin-700-normal-CUSSCpQX.woff    18.50 kB
+dist/assets/dm-sans-latin-500-normal-Dr3UlScf.woff    18.52 kB
+dist/assets/index-BmDBWbH2.css                        21.72 kB │ gzip:   5.54 kB
+dist/assets/index-QJeCTWXN.js                        342.92 kB │ gzip: 104.80 kB
+
+✓ built in 22.26s
+
+> doorrelay-guard@0.2.0 test
+> tsx --test tests/*.test.ts
+
+TAP version 13
+# Subtest: real HTTP lifecycle, access boundaries, speaker protocol, and restart recovery
+    # Subtest: compiled dashboard, companion, and bundled video are served
+    ok 1 - compiled dashboard, companion, and bundled video are served
+      ---
+      duration_ms: 279.443
+      ...
+    # Subtest: dashboard access and CSRF are enforced
+    ok 2 - dashboard access and CSRF are enforced
+      ---
+      duration_ms: 502.7813
+      ...
+    # Subtest: pairing is single use and audio starts disabled
+    ok 3 - pairing is single use and audio starts disabled
+      ---
+      duration_ms: 21.7869
+      ...
+    # Subtest: pixels-to-policy observation protocol creates one incident and one warning
+    ok 4 - pixels-to-policy observation protocol creates one incident and one warning
+      ---
+      duration_ms: 1303.3544
+      ...
+    # Subtest: pickup suppression and collection confirmation
+    ok 5 - pickup suppression and collection confirmation
+      ---
+      duration_ms: 1086.7294
+      ...
+    # Subtest: muted and revoked speakers cannot receive or acknowledge warnings
+    ok 6 - muted and revoked speakers cannot receive or acknowledge warnings
+      ---
+      duration_ms: 18333.3183
+      ...
+    # Subtest: report excludes credentials and evidence can be cleared
+    ok 7 - report excludes credentials and evidence can be cleared
+      ---
+      duration_ms: 7.9738
+      ...
+    # Subtest: restart retains audit history but never resumes observation
+    ok 8 - restart retains audit history but never resumes observation
+      ---
+      duration_ms: 633.4772
+      ...
+    1..8
+ok 1 - real HTTP lifecycle, access boundaries, speaker protocol, and restart recovery
+  ---
+  duration_ms: 28266.5309
+  ...
+# Subtest: generated stable parcel: seed 1, brightness -12
+ok 2 - generated stable parcel: seed 1, brightness -12
+  ---
+  duration_ms: 83.7912
+  ...
+# Subtest: generated stable parcel: seed 1, brightness 0
+ok 3 - generated stable parcel: seed 1, brightness 0
+  ---
+  duration_ms: 12.9776
+  ...
+# Subtest: generated stable parcel: seed 1, brightness 12
+ok 4 - generated stable parcel: seed 1, brightness 12
+  ---
+  duration_ms: 1.6579
+  ...
+# Subtest: generated stable parcel: seed 17, brightness -12
+ok 5 - generated stable parcel: seed 17, brightness -12
+  ---
+  duration_ms: 1.4283
+  ...
+# Subtest: generated stable parcel: seed 17, brightness 0
+ok 6 - generated stable parcel: seed 17, brightness 0
+  ---
+  duration_ms: 1.4944
+  ...
+# Subtest: generated stable parcel: seed 17, brightness 12
+ok 7 - generated stable parcel: seed 17, brightness 12
+  ---
+  duration_ms: 1.5994
+  ...
+# Subtest: generated stable parcel: seed 41, brightness -12
+ok 8 - generated stable parcel: seed 41, brightness -12
+  ---
+  duration_ms: 42.6407
+  ...
+# Subtest: generated stable parcel: seed 41, brightness 0
+ok 9 - generated stable parcel: seed 41, brightness 0
+  ---
+  duration_ms: 1.1108
+  ...
+# Subtest: generated stable parcel: seed 41, brightness 12
+ok 10 - generated stable parcel: seed 41, brightness 12
+  ---
+  duration_ms: 1.2891
+  ...
+# Subtest: generated stable parcel: seed 97, brightness -12
+ok 11 - generated stable parcel: seed 97, brightness -12
+  ---
+  duration_ms: 1.4544
+  ...
+# Subtest: generated stable parcel: seed 97, brightness 0
+ok 12 - generated stable parcel: seed 97, brightness 0
+  ---
+  duration_ms: 1.1403
+  ...
+# Subtest: generated stable parcel: seed 97, brightness 12
+ok 13 - generated stable parcel: seed 97, brightness 12
+  ---
+  duration_ms: 1.2189
+  ...
+# Subtest: generated moved parcel: position 0.61,0.21, scale 0.85
+ok 14 - generated moved parcel: position 0.61,0.21, scale 0.85
+  ---
+  duration_ms: 103.4005
+  ...
+# Subtest: generated moved parcel: position 0.61,0.21, scale 1
+ok 15 - generated moved parcel: position 0.61,0.21, scale 1
+  ---
+  duration_ms: 100.2803
+  ...
+# Subtest: generated moved parcel: position 0.61,0.21, scale 1.15
+ok 16 - generated moved parcel: position 0.61,0.21, scale 1.15
+  ---
+  duration_ms: 108.4944
+  ...
+# Subtest: generated moved parcel: position 0.61,0.41, scale 0.85
+ok 17 - generated moved parcel: position 0.61,0.41, scale 0.85
+  ---
+  duration_ms: 87.2936
+  ...
+# Subtest: generated moved parcel: position 0.61,0.41, scale 1
+ok 18 - generated moved parcel: position 0.61,0.41, scale 1
+  ---
+  duration_ms: 80.5861
+  ...
+# Subtest: generated moved parcel: position 0.61,0.41, scale 1.15
+ok 19 - generated moved parcel: position 0.61,0.41, scale 1.15
+  ---
+  duration_ms: 88.7053
+  ...
+# Subtest: generated moved parcel: position 0.11,0.11, scale 0.85
+ok 20 - generated moved parcel: position 0.11,0.11, scale 0.85
+  ---
+  duration_ms: 84.4756
+  ...
+# Subtest: generated moved parcel: position 0.11,0.11, scale 1
+ok 21 - generated moved parcel: position 0.11,0.11, scale 1
+  ---
+  duration_ms: 79.1938
+  ...
+# Subtest: generated moved parcel: position 0.11,0.11, scale 1.15
+ok 22 - generated moved parcel: position 0.11,0.11, scale 1.15
+  ---
+  duration_ms: 87.8789
+  ...
+# Subtest: generated moved parcel: position 0.11,0.61, scale 0.85
+ok 23 - generated moved parcel: position 0.11,0.61, scale 0.85
+  ---
+  duration_ms: 86.1292
+  ...
+# Subtest: generated moved parcel: position 0.11,0.61, scale 1
+ok 24 - generated moved parcel: position 0.11,0.61, scale 1
+  ---
+  duration_ms: 85.7027
+  ...
+# Subtest: generated moved parcel: position 0.11,0.61, scale 1.15
+ok 25 - generated moved parcel: position 0.11,0.61, scale 1.15
+  ---
+  duration_ms: 86.7274
+  ...
+# Subtest: two similar displaced parcels require review instead of a unique match
+ok 26 - two similar displaced parcels require review instead of a unique match
+  ---
+  duration_ms: 85.3448
+  ...
+# Subtest: large global lighting change cannot produce movement
+ok 27 - large global lighting change cannot produce movement
+  ---
+  duration_ms: 5.5344
+  ...
+# Subtest: modest rotation -0.2617993877991494 remains trackable after displacement
+ok 28 - modest rotation -0.2617993877991494 remains trackable after displacement
+  ---
+  duration_ms: 78.2105
+  ...
+# Subtest: modest rotation 0.2617993877991494 remains trackable after displacement
+ok 29 - modest rotation 0.2617993877991494 remains trackable after displacement
+  ---
+  duration_ms: 85.5448
+  ...
+# Subtest: out-of-frame and non-finite enrollment are rejected
+ok 30 - out-of-frame and non-finite enrollment are rejected
+  ---
+  duration_ms: 2.6671
+  ...
+# Subtest: sustained movement creates one review incident; repeated observations do not duplicate it
+ok 31 - sustained movement creates one review incident; repeated observations do not duplicate it
+  ---
+  duration_ms: 41.4134
+  ...
+# Subtest: occlusion clears movement streak and never queues sound
+ok 32 - occlusion clears movement streak and never queues sound
+  ---
+  duration_ms: 0.3074
+  ...
+# Subtest: authorized pickup suppresses warnings, then explicit confirmation transfers custody
+ok 33 - authorized pickup suppresses warnings, then explicit confirmation transfers custody
+  ---
+  duration_ms: 0.6139
+  ...
+# Subtest: expired pickup does not authorize later movement
+ok 34 - expired pickup does not authorize later movement
+  ---
+  duration_ms: 39.4683
+  ...
+# Subtest: stream gap resets the streak; old-source observations cannot change state
+ok 35 - stream gap resets the streak; old-source observations cannot change state
+  ---
+  duration_ms: 0.2786
+  ...
+# Subtest: no ready speaker means no automatic warning, even with auto policy
+ok 36 - no ready speaker means no automatic warning, even with auto policy
+  ---
+  duration_ms: 0.1533
+  ...
+# Subtest: warning needs started then completed acknowledgement; expiration cannot be resurrected
+ok 37 - warning needs started then completed acknowledgement; expiration cannot be resurrected
+  ---
+  duration_ms: 0.4444
+  ...
+# Subtest: return requires stable observations and cancels pending audio
+ok 38 - return requires stable observations and cancels pending audio
+  ---
+  duration_ms: 0.2195
+  ...
+# Subtest: rapid duplicate frames cannot manufacture a movement event
+ok 39 - rapid duplicate frames cannot manufacture a movement event
+  ---
+  duration_ms: 0.3393
+  ...
+# Subtest: false alarm resolution stops tracking until re-enrollment
+ok 40 - false alarm resolution stops tracking until re-enrollment
+  ---
+  duration_ms: 0.4817
+  ...
+# Subtest: starting a pickup cancels a warning that has not played
+ok 41 - starting a pickup cancels a warning that has not played
+  ---
+  duration_ms: 0.172
+  ...
+# Subtest: re-enrollment supersedes old reviews and rejects old session frames
+ok 42 - re-enrollment supersedes old reviews and rejects old session frames
+  ---
+  duration_ms: 0.1627
+  ...
+# Subtest: a second incident during warning cooldown still enters review without throwing
+ok 43 - a second incident during warning cooldown still enters review without throwing
+  ---
+  duration_ms: 0.1912
+  ...
+# Subtest: video ending preserves an active pickup so the resident can confirm collection
+ok 44 - video ending preserves an active pickup so the resident can confirm collection
+  ---
+  duration_ms: 0.4886
+  ...
+# Subtest: video ending preserves a review and cancels pending sound
+ok 45 - video ending preserves a review and cancels pending sound
+  ---
+  duration_ms: 0.2637
+  ...
+# Subtest: reference remains present when unchanged or mildly brighter
+ok 46 - reference remains present when unchanged or mildly brighter
+  ---
+  duration_ms: 61.6846
+  ...
+# Subtest: positive template match elsewhere is movement
+ok 47 - positive template match elsewhere is movement
+  ---
+  duration_ms: 234.3345
+  ...
+# Subtest: absent or obscured parcel is uncertain, not confirmed movement
+ok 48 - absent or obscured parcel is uncertain, not confirmed movement
+  ---
+  duration_ms: 113.3172
+  ...
+# Subtest: featureless enrollment is rejected
+ok 49 - featureless enrollment is rejected
+  ---
+  duration_ms: 2.013
+  ...
+1..49
+# tests 57
+# suites 0
+# pass 57
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 29360.8214
