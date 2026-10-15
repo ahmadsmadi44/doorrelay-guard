@@ -1,3 +1,7 @@
+# Demo video
+
+Final submission video (public): https://youtu.be/OM_MheSA-fw — 65 seconds, 1920x1080, captions plus a short spoken warning and siren in the dramatized cold open. The siren and the dropped parcel in the cold open are dramatization; the application itself plays one fixed spoken warning through a paired phone and has no siren. Application segments use the bundled rendered porch test clip. Actual Ring Playground playback is shown in the earlier 2:16 walkthrough (https://www.youtube.com/watch?v=0SHVt1pdhqw, unlisted), whose script follows.
+
 # Finished demonstration and recording runbook
 
 Finished video: https://www.youtube.com/watch?v=0SHVt1pdhqw (unlisted at the owner's request).

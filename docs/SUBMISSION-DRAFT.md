@@ -43,9 +43,9 @@ Future work: a consented real-footage evaluation set, more robust tracking, a re
 
 Source repository: https://github.com/ahmadsmadi44/doorrelay-guard (public, MIT license).
 
-Demonstration: https://www.youtube.com/watch?v=0SHVt1pdhqw (unlisted at the owner's request; approximately 2 minutes 15 seconds, displayed by YouTube as 2:16).
+Demonstration: https://youtu.be/OM_MheSA-fw (public, 65 seconds). The opening scene is a dramatization (the siren is not an app feature); the app segments use rendered test scenes. Ring Playground playback is shown in the earlier 2:16 walkthrough: https://www.youtube.com/watch?v=0SHVt1pdhqw.
 
-The Devpost entry is a saved draft. The owner will perform final submission; do not submit it automatically. Before submitting, review the official video visibility requirement: the rules say "publicly visible" and do not explicitly clarify unlisted videos. The current video is accessible to anyone with its link but excluded from public channel listings and search.
+The submission video is public on YouTube.
 
 Account identity verification remains an account-owner step if Ring Appstore publishing is pursued.
 

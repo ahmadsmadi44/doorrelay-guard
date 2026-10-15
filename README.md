@@ -2,11 +2,11 @@
 
 A laptop-and-phone prototype for watching a parcel from delivery to confirmed collection. A resident enrolls a parcel, Guard looks for sustained movement, and a paired phone can play a short warning. Built for the Amazon App Developer Hackathon 2026, Ring track.
 
-**Status: working local MVP, version 0.2.0.** Actual Ring device discovery, 1280×720 WHEP playback in desktop Chrome, and parcel observation are verified. The generated-video → movement → spoken warning → return flow has passed end-to-end browser testing. The user also confirmed audible speaker output. This is a foreground demo, not a field-validated security service or a published submission.
+**Status: working local MVP, version 0.2.0.** Actual Ring device discovery, 1280×720 WHEP playback in desktop Chrome, and parcel observation are verified. The generated-video → movement → spoken warning → return flow has passed end-to-end browser testing. The user also confirmed audible speaker output. This is a foreground demo, not a field-validated security service.
 
 ## Run
 
-Watch the [unlisted demonstration](https://www.youtube.com/watch?v=0SHVt1pdhqw). The hackathon entry remains a draft for the owner to submit.
+Watch the [65-second demo](https://youtu.be/OM_MheSA-fw). The cold open is a dramatization; the application segments use the bundled rendered porch test clip and show the real dashboard, phone pairing, review flow and spoken warning. Earlier longer walkthrough with actual Ring Playground playback: [2:16 video](https://www.youtube.com/watch?v=0SHVt1pdhqw) (unlisted).
 
 Requires Node.js 22 or newer and npm. On Windows, double-click `Start-DoorRelay.cmd` to install dependencies if needed, build, and run with phone pairing enabled. Desktop Chrome is the verified browser for Ring playback.
 
@@ -31,14 +31,14 @@ npm start
 
 ## Try the complete local flow
 
-1. Leave **Synthetic test scene** selected. The initial rectangle covers the drawn parcel. Click **Enroll & observe**.
+1. Leave **Synthetic test scene** selected. The initial rectangle covers the rendered parcel. Click **Enroll & observe**.
 2. Click **Move parcel**. The picture changes, and the detector compares the pixels. After four matching movement observations, Guard opens a before/after review.
 3. Click **Parcel in place**. Four stable observations resolve the event as returned.
 4. Click **Block the view** or **Remove from view**. Guard reports uncertainty. Disappearance alone does not establish movement or queue a warning.
 5. Restore the parcel, then click **Start pickup**. Movement during the two-minute authorization window does not trigger an incident. Click **Confirm collection** to finish the handoff.
 6. Enroll again to start a new parcel session. Old reviews are marked superseded and stale observations cannot affect the new session.
 
-The scene controls only change a rendered canvas. They do not call the observation or incident endpoints. This is a generated test fixture, not a physical-camera validation set.
+The scene controls only change a rendered canvas. They do not call the observation or incident endpoints. This is a rendered test scene (procedural 3D night porch), not a physical-camera validation set.
 
 ## Give Guard a voice
 
@@ -106,7 +106,7 @@ Ring Playground's Package clip is “Thief stealing our package” by [frollard]
 
 ## Included deliverables
 
-- `public/samples/generated-parcel-test.mp4`: original labeled-in-UI regression video; no Ring clip is redistributed. Rebuild with `npm run fixtures` if FFmpeg is installed.
+- `public/samples/generated-parcel-test.mp4`: original rendered regression video (night porch, procedural 3D); no Ring clip is redistributed. Rebuild with `python scripts/render-scene/render_all.py` (needs Playwright Chromium and FFmpeg). `npm run fixtures` still builds the legacy synthetic detector fixture and will overwrite this file with a flat-colour clip, so do not run it unless you want that.
 - `docs/VALIDATION.md`: automated and browser test evidence.
 - `docs/SUBMISSION-DRAFT.md`: factual Devpost copy.
 - `docs/DEMO-SCRIPT.md`: timed demo and recording runbook.
