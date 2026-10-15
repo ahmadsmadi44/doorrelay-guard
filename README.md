@@ -6,6 +6,8 @@ A laptop-and-phone prototype for watching a parcel from delivery to confirmed co
 
 ## Run
 
+Watch the [unlisted demonstration](https://www.youtube.com/watch?v=0SHVt1pdhqw). The hackathon entry remains a draft for the owner to submit.
+
 Requires Node.js 22 or newer and npm. On Windows, double-click `Start-DoorRelay.cmd` to install dependencies if needed, build, and run with phone pairing enabled. Desktop Chrome is the verified browser for Ring playback.
 
 ```powershell

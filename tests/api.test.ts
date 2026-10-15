@@ -40,6 +40,11 @@ test('real HTTP lifecycle, access boundaries, speaker protocol, and restart reco
     assert.equal((await fetch(base + '/speaker')).status, 200);
     const sample = await fetch(base + '/samples/generated-parcel-test.mp4', { headers: { Range: 'bytes=0-100' } });
     assert.equal(sample.status, 206); assert.match(sample.headers.get('content-type') || '', /video\/mp4/);
+    for (const file of ['connected.mp3', 'warning.mp3']) {
+      const audio = await fetch(base + '/audio/' + file);
+      assert.equal(audio.status, 200); assert.match(audio.headers.get('content-type') || '', /audio\/mpeg/);
+      assert.ok((await audio.arrayBuffer()).byteLength > 1000);
+    }
   });
   await t.test('dashboard access and CSRF are enforced', async () => {
     assert.equal((await request('/state', undefined, 'anonymous')).status, 401);

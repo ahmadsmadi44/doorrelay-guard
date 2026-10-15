@@ -64,6 +64,10 @@ Playground was accessible without identity verification after normal Amazon sign
 
 Run `npm ci` then `npm test`. Launch with `Start-DoorRelay.cmd` or `npm start` after building. Follow `docs/DEMO-SCRIPT.md`. Keep Ring proof, original physical footage, and generated fixtures visibly distinct.
 
+## Source release validation
+
+A clean install of the published source completed with zero reported npm vulnerabilities. Testing from the isolated checkout inside `.doorrelay/publish/` exposed a path-dependent speaker-page failure: Express's absolute-file fallback rejected a hidden ancestor directory. The fallback now serves `index.html` relative to the built public root, preserving private-path denial. The existing HTTP test checks `/speaker` from that checkout; it also verifies both bundled MP3 assets are served with audio content types and nonempty bodies.
+
 ## October 14 evening validation
 
 A local review recorder was added and its real Ring output decoded with FFmpeg. The captured Playground package sequence showed a stationary parcel throughout the observed ~35-second media session; it contained no package removal to score. This is positive evidence for stable observation and integration, not removal accuracy. The full-resolution recording is kept locally outside the source archive.

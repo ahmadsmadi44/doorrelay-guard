@@ -41,6 +41,12 @@ Future work: a consented real-footage evaluation set, more robust tracking, a re
 
 ## Submission assembly
 
-Prepared locally; nothing has been submitted or published. The final Devpost entry needs a GitHub repository URL and a demonstration video URL. Use the accompanying demo script and validation report to keep claims aligned with evidence. Account identity verification remains an account-owner step if Ring Appstore publishing is pursued.
+Source repository: https://github.com/ahmadsmadi44/doorrelay-guard (public, MIT license).
+
+Demonstration: https://www.youtube.com/watch?v=0SHVt1pdhqw (unlisted at the owner's request; approximately 2 minutes 15 seconds, displayed by YouTube as 2:16).
+
+The Devpost entry is a saved draft. The owner will perform final submission; do not submit it automatically. Before submitting, review the official video visibility requirement: the rules say "publicly visible" and do not explicitly clarify unlisted videos. The current video is accessible to anyone with its link but excluded from public channel listings and search.
+
+Account identity verification remains an account-owner step if Ring Appstore publishing is pursued.
 
 Source of submission requirements: https://amazonappdev2026.devpost.com/rules

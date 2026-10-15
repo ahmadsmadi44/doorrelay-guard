@@ -162,7 +162,9 @@ app.post('/api/ring/webhook', (req, res) => {
 });
 if (process.argv.includes('--production')) {
   if (!existsSync(resolve('dist/index.html'))) throw new Error('Run npm run build first.');
-  app.use(express.static(resolve('dist'))); app.get('/{*path}', (_req, res) => res.sendFile(resolve('dist/index.html')));
+  const publicRoot = resolve('dist');
+  app.use(express.static(publicRoot));
+  app.get('/{*path}', (_req, res) => res.sendFile('index.html', { root: publicRoot }));
 } else {
   const { createServer: createViteServer } = await import('vite');
   const vite = await createViteServer({ server: { middlewareMode: true, ws: { server }, fs: { deny: ['.env', '.env.*', '*.{crt,pem}', '**/.git/**', '**/.doorrelay/**', '**/artifacts/**'] }, watch: { ignored: ['**/.doorrelay/**', '**/artifacts/**'] } }, appType: 'spa' }); app.use(vite.middlewares);

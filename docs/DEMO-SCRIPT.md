@@ -1,4 +1,12 @@
-# Demo runbook · approximately 2 minutes 45 seconds
+# Finished demonstration and recording runbook
+
+Finished video: https://www.youtube.com/watch?v=0SHVt1pdhqw (unlisted at the owner's request).
+
+The finished edit measures 135.021 seconds; YouTube displays 2:16. Its timeline is: introduction 0:00; actual Ring playback 0:13; generated movement-and-return test 0:33; labeled application warning replay 1:04; authorized pickup 1:09; architecture 1:34; limits 1:57; end 2:15.
+
+Review exports are silent. Synthetic narration and a clearly labeled replay of the bundled warning asset were added in the edit. Physical-camera removal accuracy remains unvalidated. See MEDIA-CREDITS.md for attribution. Original recordings and the assembled video are local artifacts excluded from the source repository.
+
+## Runbook for a new live demonstration · approximately 2 minutes 45 seconds
 
 Use desktop Chrome for Ring. Keep the paired speaker page visible on another device. Start in review-first mode and enable automatic warnings only when showing the controlled example. Do not expose the Playground token in a recording.
 
